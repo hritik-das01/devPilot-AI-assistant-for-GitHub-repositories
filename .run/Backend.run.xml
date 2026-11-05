@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <envs>
+      <env name="SPRING_DATASOURCE_URL" value="jdbc:postgresql://localhost:5433/devpilot" />
+      <env name="SPRING_DATASOURCE_USERNAME" value="postgres" />
+      <env name="SPRING_DATASOURCE_PASSWORD" value="postgres" />
+    </envs>
+    <module name="backend (1) (devPilot)" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="devPilot.backend.BackendApplication" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devPilot-master/backend" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

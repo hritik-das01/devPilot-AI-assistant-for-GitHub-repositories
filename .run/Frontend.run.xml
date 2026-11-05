@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Frontend" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/devPilot-master/client/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="dev" />
+    </scripts>
+    <node-interpreter value="project" />
+    <package-manager value="npm" />
+    <envs>
+      <env name="NEXT_PUBLIC_API_BASE_URL" value="http://localhost:8080" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
